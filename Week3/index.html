@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Task Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="planner-container">
+        <h2>Smart Task Planner</h2>
+        
+        <div id="notification" class="notification"></div>
+
+        <div class="input-section">
+            <input type="text" id="goal-input" placeholder="e.g., Plan a 3-day trip to Goa...">
+            <button id="generate-btn">Generate Plan</button>
+        </div>
+
+        <div id="loading" class="loading">Generating your smart plan with AI...</div>
+
+        <div id="task-container">
+            <ul id="task-list"></ul>
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
